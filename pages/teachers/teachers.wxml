@@ -1,0 +1,42 @@
+<!--logs.wxml-->
+<scroll-view scroll-y="true" style="height: {{ height }}px" bindscrolltolower="loadMore">
+<view class="filter">
+			<view class="span {{ filters.sort }}" bindtap="filter" data-sort="sort">
+				<image src="../../images/sort{{ filters.sort }}.png" bindtap="filter" data-sort="sort"></image>
+				智能排序
+			</view>
+			<view class="span {{ filters.distance }}" bindtap="filter" data-sort="distance">
+				<image src="../../images/distance{{ filters.distance }}.png" bindtap="filter" data-sort="distance"></image>
+				距离
+			</view>
+			<view class="span {{ filters.praise }}" bindtap="filter" data-sort="praise">
+				<image src="../../images/praise{{ filters.praise }}.png" bindtap="filter" data-sort="praise"></image>
+				好评率
+			</view>
+			<view class="span {{ filters.price }} last" bindtap="filter" data-sort="price">
+				<image src="../../images/price{{ filters.price }}.png" bindtap="filter" data-sort="price"></image>
+				价格
+			</view>
+		</view>
+
+		<view class="ul">
+			<view class="li" wx:for="{{ teachers }}" bindtap="bindViewTeacher" data-id="{{item.id}}" wx:key="item.id">
+				<view data-id="{{item.id}}" class="pic">
+					<image data-id="{{item.id}}" class="img" src="{{ item.avatar }}" ></image>
+				</view>
+				<view data-id="{{item.id}}" class="con">
+					<view class="h2" data-id="{{item.id}}">{{ item.name }}</view>
+					<view class="up" data-id="{{item.id}}">
+						<view data-id="{{item.id}}">{{ item.praise }}%好评</view>
+						<view data-id="{{item.id}}" class="comment">{{ item.comment }}</view>
+					</view>
+					<view data-id="{{item.id}}">
+						<view data-id="{{item.id}}" class="dis">{{ item.distance }}公里</view>
+						<view data-id="{{item.id}}" class="time">{{ item.time }}分钟</view>
+					</view>
+				</view>
+				<view data-id="{{item.id}}" class="price">{{ item.price }}元</view>
+			</view>
+			
+		</view>
+	</scroll-view>

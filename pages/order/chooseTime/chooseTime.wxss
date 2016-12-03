@@ -1,0 +1,12 @@
+.section{
+    padding: 10px;
+    margin-bottom:10px;
+}
+.picker{
+    display: inline-block;
+    color: aquamarine;
+    margin-top: 10px;
+    border: 1px solid #e3e3e3;
+    padding: 8px 10px 6px 10px;
+    border-radius: 3px;
+}

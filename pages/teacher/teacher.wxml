@@ -1,0 +1,110 @@
+<view class="main">
+		<view class="banner">
+			<image class="img" src="{{ avatar }}"></image>
+			<view class="title">{{ name }}</view>
+			<view class="desc">{{ comment }}</view>
+			<view class="star">
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<i class="fa fa fa-star-o"></i>
+			</view>
+		</view>
+		<view class="list">
+			<view class="li">
+				<view class="row">
+					<view class="customer">
+						盼盼爸爸 03-06 00:14
+					</view>
+					<view class="star">
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star-o"></i>
+					</view>
+				</view>
+				<view class="word">
+					该老师专业知识扎实，具有小学数学科循环教学的能力，业务素质好
+				</view>
+			</view>
+			<view class="li">
+				<view class="row">
+					<view class="customer">
+						小美妈妈 02-26 19:09
+					</view>
+					<view class="star">
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star-o"></i>
+						<i class="fa fa-star-o"></i>
+						<i class="fa fa-star-o"></i>
+						<i class="fa fa-star-o"></i>
+					</view>
+				</view>
+				<view class="word">
+					这学期，我的孩子成绩有进步，你有能力把我的孩子教得更好，我们做家长的相信你，孩子交到你手中，我很放心。
+				</view>
+			</view>
+			<view class="li">
+				<view class="row">
+					<view class="customer">
+						琪琪妈妈 02-11 07:25
+					</view>
+					<view class="star">
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star"></i>
+					</view>
+				</view>
+				<view class="word">
+					我儿子的语文成绩进步很大，我感到很满意。
+				</view>
+			</view>
+			<view class="li">
+				<view class="row">
+					<view class="customer">
+						贝贝爸爸 02-10 01:54
+					</view>
+					<view class="star">
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star-o"></i>
+						<i class="fa fa-star-o"></i>
+					</view>
+				</view>
+				<view class="word">
+					该同志热爱祖国，热爱教育事业，认真学习毛泽东思想，邓小平理论和“三个代表”重要思想
+				</view>
+			</view>
+			<view class="li">
+				<view class="row">
+					<view class="customer">
+						乐乐爸爸 02-02 04:34
+					</view>
+					<view class="star">
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star"></i>
+					</view>
+				</view>
+				<view class="word">
+					老师你好，我女儿的成绩在你的教育下，起色很大，谢谢你。
+				</view>
+			</view>
+			
+		</view>
+		<view class="footer">
+			<view class="comment">
+			评价
+		</view>
+		<view class="order" bindtap="order">
+			预约
+		</view>
+		</view>
+	</view>

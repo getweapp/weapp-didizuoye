@@ -1,0 +1,4 @@
+<view class="section" wx:for="{{ addresses }}" wx:key="item.id">
+  <view class="section-title" data-address="{{item.address}}" bindtap="choose">{{ item.address }}</view>
+<view class="section-distance" data-address="{{item.address}}" bindtap="choose">{{ item._distance }}m</view>
+</view>

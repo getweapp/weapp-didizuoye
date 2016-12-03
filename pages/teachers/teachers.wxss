@@ -1,0 +1,142 @@
+.filter {
+    border-top: 1px solid #bbb;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-flex-flow: row;
+    flex-flow: row;
+    border-bottom: 1px solid #bbb;
+}
+
+.filter .span {
+    display: inline-block;
+    height: 70px;
+    line-height: 40px;
+    text-align: center;
+    overflow: hidden;
+    -webkit-box-flex: 1;
+    -webkit-flex: 1;
+    flex: 1;
+}
+
+.filter .span:after {
+    border-right: 1px solid #c3c3c3;
+    float: right;
+    margin-top: -30px;
+    content: '';
+    width: 1px;
+    height: 100px;
+    line-height: 100px;
+    margin-left: 4px;
+}
+
+.filter .span.last:after{
+    border-right: 0;
+} 
+.filter .span image{
+    width: 24px;
+    height: 24px;
+    display: block;
+    margin: auto;
+    margin-top: 8px;
+    margin-bottom: 0;
+}
+
+.active {
+    color: #f9920b;
+}
+
+.img {
+    border-radius: 80px;
+    width: 80px;
+    height: 80px;
+    border: 2px solid #ffa31a;
+    display: block;
+    margin: 0 auto;
+}
+
+.li {
+    overflow: hidden;
+    padding: 10px 0;
+    border-bottom: 1px solid #f4f4f4;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-flex-flow: row;
+    flex-flow: row;
+}
+
+.even {
+    background-color: #f5f5f5;
+}
+
+.pic {
+    width: 100px;
+}
+
+.con {
+    -webkit-box-flex: 1;
+    -webkit-flex: 1;
+    flex: 1;
+    font-size: 14px;
+}
+
+.con .h2 {
+    color: #3a3a3a;
+    font-size: 18px;
+}
+
+.con .up {
+    margin: 10px 0;
+}
+
+.con .up view{
+  display: inline;
+}
+
+.con .dis {
+    background-color: #96d376;
+    color: #fff;
+    padding: 4px 8px;
+    border-radius: 10px;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.con .time {
+    background-color: #aaa;
+    color: #fff;
+    padding: 4px 8px;
+    border-radius: 10px;
+    display: inline-block;
+}
+
+.con i {
+    margin-right: 4px;
+}
+.fa {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    transform: translate(0, 0);
+}
+
+.comment {
+    color: #19ad00;
+    margin-left: 10px;
+}
+
+.price {
+    width: 60px;
+    line-height: 84px;
+    font-size: 20px;
+    color: #7c7c7c;
+    font-weight: bold;
+    text-align: right;
+    margin-right: 10px;
+}

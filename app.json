@@ -1,0 +1,18 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/speak/speak",
+    "pages/order/order",
+    "pages/order/chooseTime/chooseTime",
+    "pages/order/chooseAddress/chooseAddress",
+    "pages/teacher/teacher",
+    "pages/parents/parents",
+    "pages/teachers/teachers"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "rgb(248,143,0)",
+    "navigationBarTitleText": "滴滴作业",
+    "navigationBarTextStyle":"light"
+  }
+}

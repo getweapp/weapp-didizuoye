@@ -1,0 +1,28 @@
+	<view class="main">
+		<view class="teacher" bindtap="chooseTeacher">
+			<image src="{{ teacher.avatar }}"></image>
+			{{ teacher.name }}
+		</view>
+		<view class="loc">
+			<!--<view class="city" onclick="selectCity();">北京</view>-->
+			<view class="loc-box">
+				<view class="where" bindtap="chooseAddress">
+					<image src="../../images/address.png"></image>
+					<span>{{ address }}</span>
+				</view>
+				<view class="when" bindtap="chooseTime">
+					<image src="../../images/clock.png"></image>
+					<span wx:if="{{!date || !time}}">选择时间</span>
+					<span wx:elif="{{date && time}}">{{ date }} {{ time }}</span>
+				</view>
+			</view>
+		</view>
+		<view class="btns">
+			<view class="comment" bindtap="bindViewSpeak">
+				<image src="../../images/speak.png"></image>
+				捎话
+			</view>
+			<button class="ok" bindtap="submit">确认发送</button>
+		</view>
+		<view class="logs">预约记录</view>
+	</view>

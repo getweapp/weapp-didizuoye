@@ -1,0 +1,9 @@
+<!--index.wxml-->
+<map longitude="113.324520" latitude="23.099994" markers="{{markers}}" covers="{{covers}}"  style="width: {{ width }}px; height: {{ height }}px;"></map>
+
+<view class="content">
+    <view class="voice fa fa-microphone" bindtap="goParents" onclick="speak();"><image class="list" src="../../images/timeline.png"></image></view>
+    <view class="shit" bindtap="bindViewTap" onclick="dropping();">附近的老师</view>
+    <view class="order" bindtap="bindViewOrder" onclick="order();">预约</view>
+</view>
+

@@ -1,0 +1,52 @@
+/**index.wxss**/
+.content {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-flex-flow: row;
+    flex-flow: row;
+    padding-top: 5px;
+}
+
+.voice, .order {
+    width: 42px;
+    height: 42px;
+    border-radius: 42px;
+    
+    border: 1px solid #ff8e05;
+    text-align: center;
+    line-height: 42px;
+    font-size: 16px;
+    color: #ff8903;
+}
+
+.voice {
+    margin-left: 10px;
+}
+
+.order{
+  margin-right:10px;
+}
+
+.shit {
+  flex:1;
+    border-radius: 6px;
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+    line-height: 42px;
+
+    margin: 0 10px;
+    background: #f88f00;
+    -webkit-background-size: 108px 27px;
+    background-size: 108px 27px;
+}
+
+.list{
+  position: absolute;
+  bottom:17px;
+  left:20px;
+  width:24px;
+  height:24px;
+}

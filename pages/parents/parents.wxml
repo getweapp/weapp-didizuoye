@@ -1,0 +1,26 @@
+<scroll-view scroll-y="true" style="height: {{ height }}px" bindscroll="loadMore" bindscrolltoupper="loadMore">
+ <view class="moments_content">
+        <view class="wa-row borderBot marginBot" wx:for="{{moments}}" wx:for-item="item" wx:key="item.id">
+            <view class="wa-col-20">
+                <image class="otherAva" src="{{item.avaImg}}"></image>
+                <view class="otherName">{{item.name}}</view>
+                <view class="padding-half">{{item.time}}</view>
+            </view>
+            <view class="wa-col">
+                
+                <text wx:if="{{item.text}}">{{item.text}}</text>
+                <view class="weui-grids" style="overflow:hidden;width:100%;margin:10px 0" wx:if="{{item.img}}">
+                    <view class="weui-grid" wx:for="{{item.img}}" wx:for-item="i" wx:key="item.id" style="background:url('{{i.imgUrl}}') no-repeat;background-size:cover;float:left;width:33%;height:190rpx"></view>
+                </view>
+                <view wx:if="{{item.address}}" class="padding_half">
+                    {{item.address}}
+                </view>
+                <view class="nickTime">
+                    
+                    <image src="../../images/praise.png"></image> 10w+
+                    <image src="../../images/comment.png"></image> 90
+                </view>
+            </view>
+        </view>
+    </view>
+</scroll-view>

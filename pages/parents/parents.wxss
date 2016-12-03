@@ -1,0 +1,57 @@
+.moments_content{
+    margin-top: 40rpx;
+    font-size: 30rpx;
+    padding: 0 20rpx;
+}
+.otherAva{
+    width: 90rpx;
+    height: 90rpx;
+    float:left;
+}
+.otherName{
+    color:darkmagenta;
+    margin-left: 20rpx;
+    float:left;
+}
+.padding-half{
+    float:right;
+    font-size: 21rpx;
+    color: gray;
+}
+.wa-col{
+    clear: both;
+    padding-top: 20rpx;
+}
+.borderBot{
+    border-bottom: 1px solid #ccc
+}
+.nickTime{
+    margin: 20rpx 0;
+    position:relative;
+    color: gray;
+    text-align: right;
+}
+.nickTime image{
+    width: 24rpx;
+    height: 24rpx;
+    margin-left: 30rpx;
+}
+.nickIcon{
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-size: 18px;
+}
+.marginBot{
+    margin-bottom: 40rpx;
+}
+
+/** 修改默认的navigator点击态 **/
+.navigator-hover {
+    color:blue;
+}
+/** 自定义其他点击态样式类 **/
+.other-navigator-hover {
+    color:red;
+}
+

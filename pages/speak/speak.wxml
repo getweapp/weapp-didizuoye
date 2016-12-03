@@ -1,0 +1,15 @@
+<view class="h1">
+		说吧，随便说点什么
+		</view>
+<view class="main">
+    <view class="microphone">
+        <view class="i">
+        <image class="fa" src="../../images/speak.png"></image>
+        </view>
+        <view class="{{ wave }}"></view>
+    </view>
+    <view class="words">
+        
+    </view>
+    <button bindtap="speak" class="ok" tapmode="active">{{ tips }}</button>
+</view>
